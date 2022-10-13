@@ -87,6 +87,7 @@ function PlayMusic()
     song.play();
     song.setVolume(1);
     song.rate(1)
+    song.loop();
 }
 
 function gotPoses(results)
